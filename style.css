@@ -1,34 +1,39 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+body{
+    background-color: #000;
+}
 
 /* Header */
 header {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 15px 20px;
     text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
 }
 
 .logo {
-    color: #e50914; /* Netflix-like red */
+    color: #e50914; 
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+    opacity: 1;
 }
 
 /* Hero Section */
 .hero_section {
-    height: 70vh; /* Reduced height */
+    height: 70vh; 
     background: #000;
     background-size: cover;
     background-position: center;
