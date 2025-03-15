@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedoflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Pedoflix</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+        <div class="hero_content">
+            <h1>Welcome to PEDOFLIX</h1>
+            <p>Your ultimate destination for streaming movies, anime, and shows.</p>
+        </div>
+    </section>
+
+    <!-- Filter and Sort Section -->
+    <section class="filter-sort-section">
+        <div class="filter-sort">
+            <div class="filter-group">
+                <label for="main-category">Category</label>
+                <select id="main-category">
+                    <option value="all">All</option>
+                    <option value="movies">Movies</option>
+                    <option value="anime">Anime</option>
+                    <option value="shows">Shows</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sub-category">Subcategory</label>
+                <select id="sub-category">
+                    <option value="all">All</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sort">Sort By</label>
+                <select id="sort">
+                    <option value="default">Default</option>
+                    <option value="rating">Rating</option>
+                    <option value="year">Release Year</option>
+                    <option value="alphabetical">A-Z</option>
+                </select>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
